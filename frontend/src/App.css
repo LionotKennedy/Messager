@@ -1,0 +1,62 @@
+:root {
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: white;
+  /* --main-color: #00ffee; */
+  /* --main-color: gold; */
+  /* --main-color: #7c66e3; */
+  /* --main-color: rgb(247, 223, 89); */
+  /* --main-color: rgb(32, 255, 2); */
+  /* --main-color: rgb(251, 100, 49); */
+  /* --main-color: rgb(72, 49, 251); */
+  /* --main-color: rgb(236, 70, 242); */
+  /* --main-color: rgb(242, 236, 242); */
+  /* --main-color: rgb(251, 100, 100); */
+  --main-color: linear-gradient(25deg, #ff00ea, #2600fc);
+  --main-color2: linear-gradient(25deg, #ff8000, #f3d917);
+  --main-color3: linear-gradient(25deg, #a185a1, #64636b);
+  --main-color4: #808080;
+  --main-color5: rgb(242, 226, 139);
+}
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

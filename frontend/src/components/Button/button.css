@@ -1,0 +1,16 @@
+.couleur {
+    background: var(--main-color);
+    transition: all 0.1s ease-in-out;
+}
+
+.couleur:hover {
+    /* background: var(--main-color); */
+    /* background: #000; */
+    /* transform: scale(.8); */
+    opacity: 0.8;
+}
+
+.couleur:active {
+    transform: scale(.8);
+    transition: all 0.1s ease-in-out;
+}

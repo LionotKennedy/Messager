@@ -1,0 +1,7 @@
+
+.coucou:focus {
+    border: 1.6px solid rgb(128, 0, 128) !important;
+}
+.coucou {
+    border: 0.1px solid rgb(197, 160, 197) !important;
+}

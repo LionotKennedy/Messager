@@ -1,0 +1,28 @@
+
+.dashboard__color1 {
+  background: var(--main-color);
+}
+
+.dashboard__color2 {
+  background: var(--main-color2);
+}
+
+.dashboard__color3 {
+  background: var(--main-color3);
+}
+
+.dashboard__color4 {
+  background: var(--main-color4);
+}
+
+.dashboard__main {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-color {
+  color: rgb(139, 29, 236);
+}

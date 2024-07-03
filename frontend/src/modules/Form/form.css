@@ -1,0 +1,27 @@
+.teste {
+    background: #000;
+}
+
+.form_main {
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rgb {
+    color: #000 !important;
+}
+
+.text-link {
+    /* color: blueviolet; */
+    color: rgb(173, 42, 217);
+}
